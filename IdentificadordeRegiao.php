@@ -23,7 +23,7 @@
               echo "Rio Grande do Sul é da Região Sul";
             }           
     ?>
-    <a href="10Estrutura">
+    <br/><a href="IdentificadordeRegiao.html">Voltar<a/>
 </body>
 </html>
  

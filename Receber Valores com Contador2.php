@@ -14,6 +14,7 @@
         echo "valor $c: ". $_GET["v$c"]."</br>";    
       $c++;}
      ?>     
+     <br/><a href="Receber Valores com Contador.html">Voltar<a/>
 </div>
 </body>
 </html>
