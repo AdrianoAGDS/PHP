@@ -14,7 +14,7 @@
             echo "$n x $c = $r </br>";
         }  
      ?>  
-    <br/> <a href="javascript:history.go(-1)"> Voltar <a/>
+    <br/><br/> <a href="javascript:history.go(-1)"> Voltar <a/>
 </div>
 </body>
 </html>

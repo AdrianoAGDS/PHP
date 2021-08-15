@@ -44,7 +44,7 @@
         }     
       }  */
     ?>
-    <br/><a href="CrescenteeDecrescente.html">Voltar<a/>
+    <br/><br/><a href="CrescenteeDecrescente.html">Voltar<a/>
 </div>
 </body>
 </html>

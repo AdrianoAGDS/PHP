@@ -29,7 +29,7 @@
           echo "RESULTADO:$n  <h2><span class='foco'>É PRIMO</h2></span>";
         }
         ?>
-        <br/><a href="Identificadordenumerosprimo.html">Voltar<a/>
+        <br/><br/><a href="Identificadordenumerosprimo.html">Voltar<a/>
 </div>
 </body>
 </html>

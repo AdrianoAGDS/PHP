@@ -12,30 +12,31 @@
         $Kg = $_GET["KG"];
         $M = $_GET["AM"];
         $IMC = $Kg / ($M * 2);
-        echo "Seu IMC é: $IMC </br></br>";
+        echo "Seu IMC é: ".number_format($IMC,2);
+        echo "</br></br>";
         if ($IMC < 17) {
-       echo "Muito <span class='foco'>abaixo do peso</span>";
+       echo "<span class='foco'> Você está muito abaixo do peso.</span>";
       }
          elseif ($IMC >= 17 && $IMC < 18.5) {
-          echo "Você está abaixo do Peso.";
+          echo "<span class='foco'>Você está abaixo do peso.</span>";
         }
           elseif($IMC >= 18.5 && $IMC < 25) {
-                  echo "Você está com Peso Ideal.";  
+                  echo "<span class='foco'>Você está com peso ideal.</span>";  
           }     
                 elseif($IMC >= 25 && $IMC < 30) {
-                      echo "Você está com Sobre peso.";
+                      echo "<span class='foco'>Você está com sobre peso.</span>";
                      }                  
                      elseif($IMC >= 30 && $IMC < 35) {
-                            echo "Com Obesidade.";
+                            echo "<span class='foco'>Com obesidade.</span>";
                           }    
                           elseif($IMC >= 35 && $IMC < 40) {
-                                echo "Com Obesidade Severa.";
+                                echo "<span class='foco'>Com obesidade severa.</span>";
                           }          
                           else{    
-                                echo "Com Obesidade Morbida.";
+                                echo "<span class='foco'>Com obesidade morbida.</span>";
                               } 
     ?>
-    <br/><a href="CalculoIMC.html">Voltar<a/>
+    <br/><br/><a href="CalculoIMC.html">Voltar<a/>
 </div>
 </body>
 </html>
