@@ -7,11 +7,17 @@
 </head>
 <body>
 <div>
-    <h3>  Calculo de IMC  </h3> 
+    <h3>  Calculo de IMC </h3> 
+    
     <?php
+      echo "<p><span class='foco'> Analisando ...</p></br></span>";
         $Kg = $_GET["KG"];
         $M = $_GET["AM"];
         $IMC = $Kg / ($M * 2);
+        echo "Seu peso é: ".number_format($Kg,2);
+        echo "</br>";
+        echo "Sua Altura é: ".number_format($M,2);
+        echo "</br>";
         echo "Seu IMC é: ".number_format($IMC,2);
         echo "</br></br>";
         if ($IMC < 17) {
